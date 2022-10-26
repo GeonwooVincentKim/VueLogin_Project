@@ -7,19 +7,19 @@ const routes = [
     name: "home",
     // component: HomeView,
     component: () =>
-      import(/* webpackChunkName: "home" */ "../views/HomeView.vue"),
+      import(/* webpackChunkName: "home" */ "../views/HomeView.vue")
   },
   {
     path: "/about",
     name: "about",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-  },
+      import(/* webpackChunkName: "about" */ "../views/AboutView.vue")
+  }
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes,
+  routes
 });
 
 export default router;
