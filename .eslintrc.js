@@ -19,6 +19,7 @@ module.exports = {
         {
             "trailingComma": "none",
         }
-    ]
+    ],
+    "no-unused-vars": "off" // Disable no-unused-vars
   }
 };
