@@ -1,0 +1,10 @@
+<template>
+    <div>
+        LoginView
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
